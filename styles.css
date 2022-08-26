@@ -47,24 +47,30 @@ body {
     padding: 30px;
 }
 
-.badgetwo {
-    width: 200px;
-    background: #e66357;
-    color: white;
-    padding: 5px 10px;
-    font-family: sans-serif;
-    font-weight: bold;
+.ml4 {
+    position: relative;
+    font-weight: 900;
+    font-size: 4.5em;
+  }
+  .ml4 .letters {
     position: absolute;
-    top: -15px;
-    left: 20%;
-}
+    margin: auto;
+    left: 0;
+    top: 0.3em;
+    right: 0;
+    opacity: 0; 
+  }
 
 .box {
     background: pink;
     text-align: center;
     font-size: 100px;
     height: 100%;
-    padding-top: 50px;
+    padding-top: 150px;
     font-family: Orbitron;
     border-radius: 30px;
 }
+
+
+
+  
