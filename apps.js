@@ -18,5 +18,8 @@ document.getElementById('hour').innerHTML = hour;
 document.getElementById('minute').innerHTML = ":" + minute;
 document.getElementById('second').innerHTML = ":" + second;
 }
-
 setInterval (clock, 1000);
+
+
+let whatDay = new Date().toLocaleDateString('en-US', { weekday:'long' });
+document.getElementById('day').innerHTML = whatDay;
