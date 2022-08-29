@@ -1,8 +1,9 @@
- {
+ * {
     padding: 0;
     margin: 0;
     box-sizing: border-box;
 }
+
 body {
     background: url("pattern.png");
 }
@@ -16,10 +17,11 @@ body {
     padding: 30px;
 }
 
-.badge {
+.firstbadge {
     width: 200px;
     background: #e66357;
     color: white;
+    text-align: center;
     padding: 5px 10px;
     font-family: sans-serif;
     font-weight: bold;
@@ -95,6 +97,56 @@ body {
     border-radius: 30px;
 }
 
+.score-board {
+    margin: 20px auto;
+    border: 3px solid black;
+    border-radius: 4px;
+    text-align: center;
+    width: 200px;
+    color: black;
+    font-size: 46px;
+    padding: 15px 5px;
+    position: relative;
+}
 
+.badge {
+    background: mediumslateblue;
+    color: black;
+    font-size: 20px;
+    padding: 10px 10px;
+}
 
+#user-label {
+    position: absolute;
+    top: 30px;
+    left: -25px;
+}
+
+#computer-label {
+    position: absolute;
+    top: 30px;
+    right: -55px;
+}
+
+.result {
+    font-size: 40px;
+    font-color: black;
+}
+
+.result > p {
+    text-align: center;
+    font-weight: bold;
+    }
+
+.choices {
+    margin: 50px 0;
+    text-align: center;
+    
+}
+    .choice {
+    border: 4px solid black;
+    margin: 0 15px;
+    padding: 10px;
+    display: inline-block;
+}
   
